@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Googlelogin from "./Googlelogin";
 import { useForm } from "react-hook-form";
 import useAuth from "../../Hook/useAuth";
@@ -10,14 +10,16 @@ import { AuthContext } from "../../Provider/AuthProvider/AuthProvider";
 const Login = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const location = useLocation()
+    const navigate =useNavigate()
     console.log(location);
-    // const {user,loginUser} = useAuth()
-    const {loginUser} = useContext(AuthContext)
+    const {user,loginUser} = useAuth()
+    // const {loginUser} = useContext(AuthContext)
     const onSubmit = data => {
         console.log(data)
         loginUser(data.email, data.password)
         .then(res => {
             console.log(res.user);
+            navigate(location?.state ? location?.state : "/")
         })
         .catch(err => {
             console.log(err);
@@ -25,7 +27,7 @@ const Login = () => {
 
     };
     return (
-        <div className='flex justify-center items-center w-6/12 mx-auto min-h-screen'>
+        <div className='flex justify-center items-center md:w-6/12 mx-auto min-h-screen'>
             <div className='flex flex-col w-full p-6 rounded-md sm:p-10 bg-gray-100 text-gray-900'>
                 <div className='mb-8 text-center'>
                     <h1 className='my-3 text-4xl font-bold'>Log In</h1>

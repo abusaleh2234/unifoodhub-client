@@ -6,7 +6,7 @@ import { MdPayments } from "react-icons/md";
 
 const Exprence = () => {
     return (
-        <div className="flex items-center gap-8">
+        <div className="md:flex items-center gap-8 p-4">
             <div className="md:w-1/2 p-10">
                 <img src={exp} alt="" />
             </div>

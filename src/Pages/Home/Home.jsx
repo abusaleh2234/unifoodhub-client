@@ -4,6 +4,7 @@ import Banner from "./Banner/Banner";
 import Categorytab from "./CategoryTab/Categorytab";
 import Exprence from "./Expreance/Exprence";
 import exp_bg from "../../assets/Process-bg.png"
+import Membership from "./Membership/Membership";
 const Home = () => {
     return (
         <div>
@@ -17,6 +18,11 @@ const Home = () => {
             <div style={{ backgroundImage: `url(${exp_bg})` }} className="bg-no-repeat bg-center bg-cover">
                 <Container>
                     <Exprence></Exprence>
+                </Container>
+            </div>
+            <div className="">
+                <Container>
+                    <Membership></Membership>
                 </Container>
             </div>
         </div>

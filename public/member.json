@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Silver",
+        "price": 20,
+        "details": "Unifoodhub's silver membership offers exclusive benefits, possibly including discounts, early access, and special promotions for enhanced food-selling experiences."
+    },
+    {
+        "name": "Gold",
+        "price": 50,
+        "details": "Unifoodhub's gold membership provides premium food-selling privileges, such as priority support, advanced analytics, and increased visibility for sellers."
+    },
+    {
+        "name": "Platinum",
+        "price": 100,
+        "details": "Unifoodhub's platinum membership offers top-tier food-selling advantages, including exclusive marketing, personalized assistance, and maximum visibility for sellers on the platform."
+    }
+]

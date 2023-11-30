@@ -7,7 +7,7 @@ import useAuth from '../../Hook/useAuth';
 const FoodCard = ({ meal }) => {
     const { name, price, rating, meal_image,_id } = meal;
     const location = useLocation()
-    console.log(location);
+    // console.log(location);
     const {user} = useAuth()
     return (
         <div className="card  bg-base-100 group">

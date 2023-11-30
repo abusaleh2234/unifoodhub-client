@@ -9,13 +9,8 @@
         "post_time": "2023/11/24 07:30",
         "price": 18,
         "rating": 4.0,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "The Fried Egg Sandwich at UniFoodHub is a breakfast masterpiece! The perfectly fried egg with a runny yolk, nestled between two slices of golden toast, creates a deliciously satisfying combination. It's my go-to choice for a hearty and flavorful start to the day.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "UniFoodHub's Fried Egg Sandwich exceeded my expectations. The egg was expertly cooked, and the sandwich was well-balanced with a delightful crunch from the toast. The addition of savory ingredients complemented the richness of the egg, making it a standout breakfast option.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "I can't get enough of UniFoodHub's Fried Egg Sandwich! The eggs are consistently cooked to perfection, and the sandwich is thoughtfully crafted with high-quality ingredients. It's a simple yet indulgent treat that never fails to satisfy my cravings for a delicious breakfast.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Baleada",
@@ -27,13 +22,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 20,
         "rating": 3.8,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "The baleadas at UniFoodHub are a taste of Honduran perfection! The soft flour tortilla envelops a flavorful combination of refried beans, cheese, and your choice of meat. Each bite is a delightful burst of authentic flavors that transport you to the streets of Honduras.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "UniFoodHub's baleadas are a culinary gem. The tortillas are pillowy and the filling, whether it's the savory refried beans, melted cheese, or tender meat, is a harmonious blend of textures and tastes. A must-try for anyone seeking a delicious and satisfying Central American dish.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "I can't get enough of the baleadas from UniFoodHub! The tortillas are always fresh and the fillings are generously portioned. Whether you go for a classic bean and cheese combination or add meat for extra flavor, these baleadas are a tasty and fulfilling treat that keeps me coming back for more.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Chole Bhature",
@@ -45,12 +35,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 12,
         "rating": 3.9,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Chole Bhature is a true delight for the taste buds! The bhature are fluffy and golden, and the chole (spiced chickpeas) are rich and flavorful. It's an authentic and satisfying experience that brings the vibrant flavors of Indian cuisine to the forefront.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "Chole Bhature at UniFoodHub is a culinary masterpiece. The bhature are perfectly puffed, creating a wonderful contrast to the hearty and well-spiced chole. The dish is a symphony of flavors that captures the essence of traditional Indian street food.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's take on Chole Bhature is a culinary journey to North India. The bhature are light and airy, providing the perfect vessel for the robustly spiced chole. It's a delicious and comforting dish that never fails to transport me to the bustling streets of Delhi.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
 
     },
     {
@@ -63,13 +49,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 20,
         "rating": 3.5,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "Since I've made this once for my husband for lunch, he wants it for lunch almost every day LOL. This is so good! The only thing I've added is a drizzle of balsamic vinaigrette. Perfect and light for hot Summer days.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "This recipe is awesome. The only thing I did different was to grill chicken breast on my forman grill brushing it with tomato pesto as I grilled it. I always heat my tortillas right on the stove on top of the gas flame and turn them very quickly.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "The Chicken Pesto Wraps at UniFoodHub are a delightful combination of savory and fresh. The grilled chicken is juicy and well-marinated, and the pesto provides a zesty kick. The wrap is not only delicious but also a convenient and satisfying option for a busy lunch.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Chicken Polao",
@@ -81,14 +62,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 20,
         "rating": 4.2,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Chicken Pulao is a culinary masterpiece — the rice is perfectly seasoned, the chicken is tender, and the aromatic blend of spices creates a symphony of flavors. It's a comforting and satisfying dish that never disappoints.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "The Chicken Pulao from UniFoodHub is a delightful balance of savory and aromatic elements. The tender chicken pieces and fragrant basmati rice come together in perfect harmony, making it a standout choice for those who appreciate a well-executed and flavorful meal.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's Chicken Pulao is a taste sensation! The rice is infused with rich spices, and the chicken is cooked to perfection. It's a comforting dish that captures the essence of traditional flavors, making it a top pick for anyone craving a delicious and wholesome meal.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"},
-            {"author_name": "Samir","reviews_details": "I can't get enough of UniFoodHub's Chicken Pulao — it's a true gastronomic experience. The marriage of tender chicken, aromatic spices, and perfectly cooked rice creates a dish that's both satisfying and flavorful. It's become my go-to comfort food, and I highly recommend it to fellow food enthusiasts.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Mutton Biryani",
@@ -100,14 +75,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 25,
         "rating": 4.5,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Mutton Biryani is a triumph of flavors, with tender mutton pieces delicately spiced and layered with fragrant basmati rice. It's a culinary journey that satisfies the most discerning taste buds, offering an authentic and aromatic biryani experience that leaves a lasting impression.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "The Mutton Biryani at UniFoodHub is a symphony of spices and textures. The mutton is melt-in-your-mouth tender, and the fragrant rice is infused with a perfect blend of aromatic spices. It's a standout dish that consistently delivers on the promise of an indulgent and flavorful biryani.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's rendition of Mutton Biryani is a true delight for biryani enthusiasts. The succulent mutton, expertly seasoned rice, and aromatic spices come together in perfect harmony. It's a must-try for those seeking an authentic and memorable biryani experience.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's Mutton Biryani is a culinary masterpiece, showcasing the expertise of their chefs. The mutton is perfectly cooked, the rice is fragrant, and the spices create a rich tapestry of flavors. It's a dish that consistently exceeds expectations, making it a favorite among lovers of traditional Indian cuisine.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Sheek Kabab With Porota",
@@ -119,13 +88,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 18,
         "rating": 4.5,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Sheek Kabab with Porota is a taste sensation, delivering perfectly grilled skewers of flavorful minced meat alongside soft and flaky porota. The smoky aroma and well-balanced spices make this dish a standout, offering a delightful blend of textures and tastes that never fails to impress.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "The Sheek Kabab with Porota from UniFoodHub is a culinary triumph. The skewers boast a delectable char, and the porota's soft layers provide the perfect canvas for the rich flavors. It's a must-try for those seeking a harmonious fusion of grilled perfection and flaky indulgence.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's Sheek Kabab with Porota is a delightful marriage of flavors and textures. The succulent kababs, bursting with aromatic spices, complement the soft and layered porota, creating a symphony of tastes that satisfies the palate. This dish consistently delivers a memorable dining experience", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Fried Rice",
@@ -137,13 +101,8 @@
         "post_time": "2023/11/25 08:30",
         "price": 14,
         "rating": 4.0,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Fried Rice is a wok-tossed masterpiece, with each grain perfectly coated in savory flavors. The medley of fresh vegetables adds a delightful crunch, creating a well-balanced and satisfying dish that consistently exceeds expectations.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "The Fried Rice at UniFoodHub is a go-to favorite — the rice is light and fluffy, the vegetables are crisp, and the choice of protein adds a delicious depth of flavor. It's a comforting and reliable dish that never disappoints.", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "Indulging in UniFoodHub's Fried Rice is a flavor-packed journey. The perfectly cooked rice, coupled with a diverse blend of vegetables, results in a dish that's both comforting and exciting. It's a stellar representation of well-executed fried rice that stands out among the best.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     },
     {
         "name": "Beef Burger",
@@ -155,13 +114,7 @@
         "post_time": "2023/11/25 08:30",
         "price": 14,
         "rating": 4.0,
-        "email": "abusalehmd65@gmail.com",
-        "reviews": [
-            {"author_name": "Jeny","reviews_details": "UniFoodHub's Beef Burger is a carnivore's dream come true — the juicy beef patty is expertly grilled, and the fresh vegetables add a delightful crunch. It's a flavorful and indulgent experience that stands out in the world of burgers.","author_img":"https://i.ibb.co/fvw4yYR/user1.jpg"},
-            {"author_name": "Rahul","reviews_details": "The Beef Burger at UniFoodHub is a true masterpiece. The perfectly cooked beef patty, complemented by fresh lettuce, tomatoes, and a soft bun, creates a burger that's both satisfying and bursting with flavor. A must-try for burger enthusiasts!", "author_img":"https://i.ibb.co/cXRf5BJ/user2.jpg"},
-            {"author_name": "Samir","reviews_details": "UniFoodHub's Beef Burger is a standout in the burger realm, offering a symphony of tastes and textures. The juicy beef patty, coupled with the freshness of the vegetables, results in a mouthwatering experience that consistently hits the mark.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"},
-            {"author_name": "Samir","reviews_details": "Indulging in UniFoodHub's Beef Burger is a culinary adventure. The quality of the beef, the thoughtfully chosen toppings, and the soft bun create a burger that's not just a meal but an experience. It's a delicious testament to the art of crafting the perfect beef burger.", "author_img":"https://i.ibb.co/rdtwSKY/user3.jpg"}
-        ]
-
+        "like": 0,
+        "email": "abusalehmd65@gmail.com"
     }
 ]

@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Googlelogin from "./Googlelogin";
 import { useForm } from "react-hook-form";
 import useAuth from "../../Hook/useAuth";
 import { updateProfile } from "firebase/auth";
 import { auth } from "../../Firebase/firebase.config";
 import useAxiosPublic from "../../Hook/AxiosPublic/useAxiosPublic";
+import Swal from "sweetalert2";
 
 
 
@@ -14,6 +15,8 @@ const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_ke
 const SignUp = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const axiosPublic = useAxiosPublic()
+    const location = useLocation()
+    const navigate =useNavigate()
 
     const { createUser } = useAuth()
     const onSubmit = async data => {
@@ -38,12 +41,22 @@ const SignUp = () => {
                             email: res.user.email,
                             name: res.user.displayName,
                             image: res.user.photoURL,
-                            subscription: ""
+                            subscription: "",
+                            badge: "https://i.ibb.co/P51dqFJ/bronzebadge.jpg"
                         }
         
                         axiosPublic.post("/users", userInfo)
                         .then(res => {
                             console.log(res.data);
+                            if(res.data.insertedId){
+                                Swal.fire({
+                                    title: "Good job!",
+                                    text: "You Sign Up successfull.!",
+                                    icon: "success"
+                                  });
+                                navigate(location?.state ? location?.state : "/")
+                            }
+                            
                         })
                 }).catch((error) => {
                     console.log(error);

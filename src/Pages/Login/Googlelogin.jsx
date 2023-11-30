@@ -1,16 +1,20 @@
 import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../Hook/useAuth";
 import useAxiosPublic from "../../Hook/AxiosPublic/useAxiosPublic";
+import Swal from "sweetalert2";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Googlelogin = () => {
 
     const {googleLogin} = useAuth()
     const axiosPublic = useAxiosPublic()
+    const navigate =useNavigate()
 
     const hendelGoogleLogin = () => {
         googleLogin()
         .then(res => {
             console.log(res.data);
+            navigate("/")
             const userInfo = {
                 email: res.user.email,
                 name: res.user.displayName,
@@ -21,6 +25,15 @@ const Googlelogin = () => {
             axiosPublic.post("/users", userInfo)
             .then(res => {
                 console.log(res.data);
+                if(res.data.insertedId){
+                    Swal.fire({
+                        title: "Good job!",
+                        text: "You Sign Up successfull.!",
+                        icon: "success"
+                      });
+                    
+                }
+
             })
         })
         .catch(err => {

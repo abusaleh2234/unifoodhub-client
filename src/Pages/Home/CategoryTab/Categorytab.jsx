@@ -31,7 +31,7 @@ const Categorytab = () => {
             </TabList>
 
             <TabPanel>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-3">
                     {
                         meals.map(meal => <FoodCard key={meal.name} meal={meal}></FoodCard>)
                     }
@@ -39,7 +39,7 @@ const Categorytab = () => {
             </TabPanel>
             <TabPanel>
                 <h2 className='text-4xl font-semibold text-center pb-8'>Our Breakfast Meals</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-3">
                     {
                         perCtg.map(meal => <FoodCard key={meal.name} meal={meal}></FoodCard>)
                     }
@@ -47,7 +47,7 @@ const Categorytab = () => {
             </TabPanel>
             <TabPanel>
             <h2 className='text-4xl font-semibold text-center pb-8'>Our Lunch Meals</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-3">
                     {
                         perCtg.map(meal => <FoodCard key={meal.name} meal={meal}></FoodCard>)
                     }
@@ -55,7 +55,7 @@ const Categorytab = () => {
             </TabPanel>
             <TabPanel>
             <h2 className='text-4xl font-semibold text-center pb-8'>Our Dinner Meals</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-3">
                     {
                         perCtg.map(meal => <FoodCard key={meal.name} meal={meal}></FoodCard>)
                     }

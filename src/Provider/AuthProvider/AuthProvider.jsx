@@ -7,7 +7,7 @@ import useAxiosPublic from "../../Hook/AxiosPublic/useAxiosPublic";
 export const AuthContext = createContext()
 const googleProvider = new GoogleAuthProvider();
 
-const AuthProvider = ({children}) => {
+const AuthProvider = ({ children }) => {
 
     const axiosPublic = useAxiosPublic()
     const [user, setUser] = useState()
@@ -34,9 +34,10 @@ const AuthProvider = ({children}) => {
     }
 
     useEffect(() => {
-        const unsubscribe =  onAuthStateChanged(auth, (currentUser) => {
+        const unsubscribe = onAuthStateChanged(auth, currentUser => {
             setUser(currentUser)
-            const userInfo = { email: currentUser.email };
+            if (currentUser) {
+                const userInfo = { email: currentUser.email };
                 axiosPublic.post("/jwt", userInfo)
                     .then(res => {
                         console.log(res.data);
@@ -44,15 +45,20 @@ const AuthProvider = ({children}) => {
                             localStorage.setItem("access-token", res.data.token)
                             setLooding(false)
                         }
-                    })
 
-          });
+                    })
+            }
+            else {
+                localStorage.removeItem("access-token")
+                setLooding(false)
+            }
+        });
         return () => {
-            setLooding(false)
+            // setLooding(false)
             return unsubscribe;
         }
 
-    },[])
+    }, [axiosPublic])
 
     const authInfo = {
         createUser,
@@ -60,6 +66,7 @@ const AuthProvider = ({children}) => {
         googleLogin,
         logOut,
         user,
+        looding,
     }
     return (
         <AuthContext.Provider value={authInfo}>
